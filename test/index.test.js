@@ -1,4 +1,4 @@
-var transform = require('babel-core').transform
+var transform = require('@babel/core').transform
 var fs = require('fs')
 var resolve = require('path').resolve
 var plugin = require('./../src/index')
