@@ -1,5 +1,5 @@
 var render = require("pug").render;
-var transform = require("babel-core").transform;
+var transform = require("@babel/core").transform;
 
 module.exports = function({ types: t }) {
   return {
